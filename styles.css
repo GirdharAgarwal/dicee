@@ -5,16 +5,13 @@
   text-align: center;
   font-family: 'Palette Mosaic', cursive;
 }
-
 .dice {
   text-align: center;
   display: inline-block;
 }
-
 body {
   background-color: #393E46;
 }
-
 h1 {
   margin: 30px;
   font-size: 5rem;
@@ -48,4 +45,12 @@ button {
   font-family: 'Source Code Pro', monospace;
   font-size: 3rem;
   color: #4ECCA3;
+}
+@media (max-width:900px) {
+  button{
+    display: block;
+  }
+  .dice{
+    display: block;
+  }
 }

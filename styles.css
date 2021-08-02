@@ -46,11 +46,18 @@ button {
   font-size: 3rem;
   color: #4ECCA3;
 }
-@media (max-width:900px) {
-  button{
-    display: block;
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 10rem;
   }
   .dice{
     display: block;
+  }
+  button{
+    margin: auto;
+    display: block;
+    font-size: 2rem;
+    height: 10%;
+    width: 5%;
   }
 }

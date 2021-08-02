@@ -27,11 +27,9 @@ p {
   font-family: 'Source Code Pro', monospace;
   font-weight: bolder;
 }
-
-img {
+img{
   width: 80%;
 }
-
 footer {
   margin-top: 5%;
   color: #EEEEEE;
@@ -46,7 +44,7 @@ button {
   margin: 5% 8% 0%;
   width: 100px;
 }
-.result{
+#result{
   font-family: 'Source Code Pro', monospace;
   font-size: 3rem;
   color: #4ECCA3;

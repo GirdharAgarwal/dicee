@@ -15,5 +15,5 @@ function exitfunc()
 {
     document.getElementsByClassName("img1")[0].setAttribute("src","images/dice6.png");
     document.getElementsByClassName("img2")[0].setAttribute("src","images/dice6.png");
-    document.getElementsByClassName("result")[0].innerHTML="PRESS THE PLAY BUTTON TO PLAY";
+    document.getElementsByClassName("result")[0].innerHTML=" ";
 }
